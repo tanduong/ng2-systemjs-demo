@@ -7,7 +7,7 @@
 import {Component, Injectable} from '@angular/core';
 import {COMMON_DIRECTIVES} from '@angular/common';
 
-import {DND_DIRECTIVES} from 'ng2-dnd/ng2-dnd';
+import {DND_DIRECTIVES} from 'ng2-dnd';
 
 @Component({
     selector: 'demo-dnd',

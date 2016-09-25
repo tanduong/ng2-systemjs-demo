@@ -15,8 +15,6 @@
   var packages = {
     'dist':                       { main: 'boot.js',  defaultExtension: 'js' },
     'rxjs':                       { defaultExtension: 'js' },
-    'ng2-toasty':                 { defaultExtension: 'js' },
-    'ng2-dnd':                    { defaultExtension: 'js' },
     'angular2-in-memory-web-api': { defaultExtension: 'js' },
   };
 
@@ -33,7 +31,9 @@
     '@angular/testing',
     '@angular/upgrade',
     // Custom modules
-    'ng2-slim-loading-bar'
+    'ng2-slim-loading-bar',
+    'ng2-toasty',
+    'ng2-dnd'
   ];
 
   // add package entries for angular packages in the form '@angular/common': { main: 'index.js', defaultExtension: 'js' }

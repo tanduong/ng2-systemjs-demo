@@ -9,7 +9,7 @@ import {NgForm} from '@angular/forms';
 
 import {Subject, Observable, Subscription} from 'rxjs/Rx';
 
-import {ToastyService, ToastyConfig, Toasty, ToastOptions, ToastData} from 'ng2-toasty/ng2-toasty';
+import {ToastyService, ToastyConfig, Toasty, ToastOptions, ToastData} from 'ng2-toasty';
 
 @Component({
     selector: 'demo-toast',
